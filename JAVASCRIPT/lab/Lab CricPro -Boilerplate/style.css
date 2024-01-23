@@ -1,0 +1,33 @@
+/* Type your code here */
+body{
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    /* background-size: cover;  */
+    background-repeat: no-repeat;
+    background-position: 715px 270px;
+      
+    font-size: 25px;
+}
+.table1{
+    margin-top: 150px;
+}
+
+.tablehead{
+    margin-left: 20px;
+}
+.players{
+    margin-left: 20px;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    border-bottom: 1px solid #fff
+}
+.firsttr{
+    background-color: rgba(224, 24, 24, 0.5);
+}
+.indinn{
+    text-align: center;
+}
+.btsman{
+    padding: 0px 15px;
+}

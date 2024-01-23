@@ -1,0 +1,23 @@
+body{
+    color: red;
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.sub{
+    font-size: 4rem;
+}
+
+@media (orientation: landscape)     /* , (max-width: 500px)*/{   /* comma represent or*/
+    .title{
+        color: green;
+    }
+}
+
+@media (orientation: portrait) and (max-width:300px){
+    .sub{
+        color: cyan;
+    }
+}

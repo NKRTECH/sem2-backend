@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap");
+
+
+
+
+
+body{background-size: cover;
+background-image: 
+url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png);
+text-align: center;
+font-family: "Poppins", sans-serif;
+  color: white;}
+
+h1{font-size: 50px;}
+
+
+
+#logo{
+width: 10rem;}
+
+/* **********score board***************** */
+.sb{display: inline-flex;  
+height: 20rem;
+margin: 10vh auto;  }
+
+
+
+
+/* **********score board india division******************** */
+.sbi{ border-radius: 30px; margin: 0px 50px;
+width: 400px; height: 300px;
+background-color: #005fa2;}
+
+
+
+
+
+/* **********score board pak divison************************ */
+.sbp{ border-radius: 30px; margin: 0px 50px;
+    width: 400px; height: 300px;
+background-color: #1fa83d;}
+
+/**************circle************************************  */
+.circle{display: inline-flex;  border-radius: 50px; background-color: white;
+width: 45px; height: 45px; margin: 5px;}
+
+/* ************************************* */
+.ball{margin: px;}
+.scorevalue{font-size: 2rem;font-weight: bold; margin-top: 30px;}
+
+#buttons{margin-top: 100px;}
+.button{width: 70px; margin: 0px 30px;
+cursor: pointer;}

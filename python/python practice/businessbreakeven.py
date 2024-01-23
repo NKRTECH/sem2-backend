@@ -1,0 +1,5 @@
+rent = float(input())
+coffee_price=float(input())
+coffee_cost=float(input())
+breakeven_point=(rent//(coffee_price-coffee_cost))
+print(f'You need to sell approximately {breakeven_point} cups of coffee to pass the breakeven point.')

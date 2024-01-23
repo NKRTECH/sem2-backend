@@ -1,0 +1,17 @@
+body{font-family: cursive;
+background-color: rgb(139, 245, 153);}
+.heading{color: rgb(4, 0, 255);}
+
+button{ border: 0cqmin; border-radius: 10px; background-color: aqua; text-align: center;  }
+span{ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+/* ********nav tag********* */
+
+
+
+/* ************div tag******************* */
+#first_div{ background-color: rgb(148, 205, 238); border-radius: 10px; }
+
+#second_div{background-color: rgba(79, 219, 66, 0.603);}
+
+/* ******strong tag of paragraph tag************** */
+p strong{color: rgb(236, 25, 25);}

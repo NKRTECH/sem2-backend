@@ -1,0 +1,26 @@
+
+     body{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #97f77f;}
+     
+     
+     p{text-transform: capitalize;}
+      /*....................nav class=main...............................*/
+      .main{
+      vertical-align: middle;
+        background-color: rgb(255, 196, 0);
+        font-size: 150px;
+        
+      }
+      /*.................................links...............................*/
+      a{
+    text-decoration: none;
+        font-size: 100ox;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(98, 0, 255);
+      }
+    #q{color: tomato;}
+    button{font-size: 30px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+  background-color: aquamarine;
+  border-radius: 20px; border: 0cqmax;
+  }

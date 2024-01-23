@@ -1,0 +1,48 @@
+<!-- 
+    ***********************
+if css selector does not to only single element
+then html will
+give priority from top to bottom
+*************************************
+
+
+*************better remember only this how to assign values to determine priority***********************
+*****if all assinged to an element then    
+1,0,0,0 __> style
+0,1,0,0___>  id
+0,0,1,0___> class
+0,0,0,1___> element
+
+*********************
+if all selectors are used for an element then 
+priority order goes like this
+1000 > 0100 > 0010 > 0001
+style > id > class > element
+******this is called CSS specificity*****
+also lets consider if we select class of a specific element then priority will go to that selector
+example= class=heading
+element is h1
+then priority wil be given to******>>>>> h1.heading selector..........
+in this case corresponding value assign will be 0011 > 0010 > 0001
+                                                     >class > element 
+
+0,0,12,0___> represnts 12 classes in an element
+0,1,0,0____> represents 1 id 
+still priority will go 0,1,0,0 > 0,0,12,0
+
+if all values are same then priority will be given from top to bottom********
+bottom will be given more priority........
+
+-->
+
+<!-- 
+******for selecting element inside an element
+we  write--- external element_space_internal element*****
+for example p a ....here p=paragraph and a=anchor tag
+
+#cool span..... selects all span elements that are inside of elements with id="cool"
+
+
+
+
+ -->

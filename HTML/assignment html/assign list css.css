@@ -1,0 +1,54 @@
+body{ font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
+
+.topnavigation{cursor: pointer; background-color: aqua; border: 0cqmin; text-transform: capitalize;}
+
+
+
+button{text-transform: capitalize;
+border: 0cqmin;
+padding: 10px;}
+
+
+
+
+/*........buying link........*/
+a{text-decoration: solid;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: blue;}
+/*======================buy now================*/
+.buynow{background-color: rgb(229, 255, 0); width: 150px;
+border: 0cqmin; border-radius: 10px;
+font-size: medium; }
+/*==============video======================*/
+video{width: 350px;}
+
+
+/*...........procduct cards0........*/
+.productcard{background-color: rgb(226, 241, 245); width: 150px; margin: auto;
+border-radius: 10px;
+}
+/*...........................product image................*/
+.productimage{border-radius: 10px 10px 0px 0px; width: 150px; }
+
+main{display: flex;}
+
+/*======================icon==================*/
+.icon{width: 30px;}
+
+
+/*=================popular searches======================*/
+.trending{ text-transform: capitalize;
+    padding: 2px 2px;
+    border-right: 1px solid #333;
+    font-size: 15px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;}
+
+
+    /*=================list item===========*/
+    li{text-transform: capitalize; cursor: pointer; color: #b9f3f3;}
+
+
+h3{margin: 30px; color: #1af706;}
